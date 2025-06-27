@@ -1,0 +1,123 @@
+p {
+
+  vertical-align: middle;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .main-title{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    transition: color 0.6s, box-shadow 0.6s;
+    
+  }
+
+  .main-title:hover{
+    color: blue;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 30px;
+  }
+
+  .video-downloader{
+    font-family: Tahoma;
+    font-size: 50px;
+    font-weight: bold;
+    border-style: inset;
+    border-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: color 0.6s, background-color 0.6s, box-shadow 0.6s;
+  }
+
+  .video-downloader:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-color: rgb(0, 241, 108);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.6);
+  }
+
+  .video-downloader:active{
+    box-shadow: 0px 0px 30px rgba(25, 0, 255, 0.8);
+  }
+
+  .websites {
+    font-size: 40px;
+    font-family: Arial;
+    display: inline-block;
+  }
+
+  .websites-image {
+    width: 20px;
+  }
+
+  .go-to-website {
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    border-style: groove;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: box-shadow 0.2s, padding-left 0.6s, padding-right 0.6s, padding-top 0.6s, padding-top 0.6s, background-color 0.6s;
+  }
+
+  .go-to-website:hover{
+    background-color: rgb(119, 255, 176);
+    color: yellow;
+    border-style: solid;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .go-to-website:active{
+    box-shadow: 0px 10px 10px rgba(0,0,0,1);
+  }
+
+  .update{
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .time{
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(17, 0, 248);
+  }
+
+  .time-update{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 0.6s;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .time-update:hover{
+    background-color: rgb(255, 34, 34);
+  }
