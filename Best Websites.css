@@ -22,14 +22,43 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 30px;
-    transition: color 0.6s, box-shadow 0.6s;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 30px;
+    transition: color 0.6s;
     
   }
 
   .main-title:hover{
     color: blue;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    text-shadow: 30px;
+  }
+
+  .pages{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(120, 120, 255);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.6s, margin-top 0.1s, margin-left 0.1s;
+
+  }
+
+  .pages:hover{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
+  }
+
+  .pages:active{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .pages-link{
+    color: rgb(255, 255, 255);
+
   }
 
   .video-downloader{
