@@ -7,7 +7,11 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
+  }
+
+  body{
+    background-color: rgba(255, 169, 169, 0.123);
   }
 
   .main-title{
@@ -24,18 +28,21 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     text-shadow: 30px;
     transition: color 0.6s;
-    
   }
 
   .main-title:hover{
     color: blue;
   }
 
+  .site-logo{
+    vertical-align: middle;
+    width: 100px;
+  }
+
   .div-element{
     text-align: center;
     display: block;
     margin-top: 30px;
-
   }
 
   .pages{
@@ -71,25 +78,24 @@
 
   }
 
-  .video-downloader{
+  .page-titles{
     font-family: Tahoma;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
+    font-style: italic;
     text-align: center;
-    border-style: inset;
-    border-color: blue;
-    margin-top: 30px;
+    color: black;
+    text-shadow: 4px 4px rgb(25, 0, 255);
+    margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    transition: color 0.6s, background-color 0.6s, box-shadow 0.6s;
+    transition: color 0.6s, text-color 0.6s;
   }
 
-  .video-downloader:hover{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    border-color: rgb(0, 241, 108);
-    box-shadow: 0px 0px 30px rgba(25, 0, 255, 0.8);
+  .page-titles:hover{
+    color: rgb(25, 0, 255);
+    text-shadow: 4px 4px black;
   }
 
   .websites {
@@ -107,38 +113,34 @@
   .go-to-website {
     font-family: "Lucida Console";
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
     border-radius: 10px;
-    border-style: groove;
+    border-width: 4px;
+    border: none;
     width: 280px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 13px;
     padding-right: 13px;
-    display: block;
-    cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 45px;
-    transition: box-shadow 0.2s, padding-top 0.6s, padding-bottom 0.6s, background-color 0.6s;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0px 0px 50px rgb(255, 166, 0,1);
+    transition: background-color 0.5s,box-shadow 0.3s,font-size 0.5s;
   }
 
   .go-to-website:hover{
+    font-size: 18px;
+    border: none;
     background-color: rgb(119, 255, 176);
-    color: yellow;
-    border-style: solid;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .go-to-website:active{
+    color: rgb(0, 0, 0);
     box-shadow: 0px 10px 10px rgba(0,0,0,1);
   }
+
 
   .bottom-menu{
     text-align: center;
@@ -195,9 +197,4 @@
   margin-top: 6px;
   margin-left: 6px;
   box-shadow: none;
-}
-
-.site-link{
-  margin-left: 50px; 
-  font-size: 20px;
 }
