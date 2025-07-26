@@ -17,60 +17,59 @@
   .main-title{
     display: block;
     text-align: center;
-    font-family: Tahoma;
+    font-family: cursive;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
+    text-shadow: 5px 5px 5px rgb(255, 245, 45); 
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 20px;
-    margin-top: 30px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    text-shadow: 30px;
-    transition: color 0.6s;
+    margin-top: 50px;
+    transition: color 0.6s,letter-spacing 0.6s,
+    padding-top 0.6s,padding-bottom 0.6s;
   }
 
   .main-title:hover{
     color: blue;
-  }
-
-  .site-logo{
-    vertical-align: middle;
-    width: 100px;
+    letter-spacing: 7px;
   }
 
   .div-element{
-    text-align: center;
     display: block;
-    margin-top: 30px;
+    text-align: center;
   }
 
   .pages{
-    font-family: "Verdana";
-    font-size: 30px;
-    background-color: rgb(120, 120, 255);
-    color: white;
+    font-family: "Courier New",monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 700px;
+    border: none;
+    background-color: rgb(134, 134, 254);
     margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
-    transition:  border-radius 0.5s;
+    transition:  border-radius 0.6s, backgorund-color 0.6s,font-size 0.6s, background-color 0.2s,color 0.2s;
 
   }
 
   .pages:hover{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
-    box-shadow: 0px 7px 7px rgba(0,0,0,1);
+    box-shadow: 0px 0px 20px rgb(64, 0, 255);
   }
 
   .pages:active{
-    margin-top: 6px;
-    margin-right: 6px;
-    box-shadow: none;
+    color: white;
+    background-color: black;
   }
 
   .pages-link{
@@ -85,25 +84,40 @@
     font-style: italic;
     text-align: center;
     color: black;
-    text-shadow: 4px 4px rgb(25, 0, 255);
+    text-shadow: 5px 5px 5px rgb(25, 0, 255);
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    transition: color 0.6s, text-color 0.6s;
+    transition: color 0.5s, text-color 0.5s,letter-spacing 0.5s;
   }
 
   .page-titles:hover{
+    letter-spacing: 6px;
     color: rgb(25, 0, 255);
-    text-shadow: 4px 4px black;
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .background{
+    border:none;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    transition: box-shadow 0.6s;
+  }
+
+  .background:hover{
+    box-shadow: 0px 0px 40px rgb(208, 255, 0);
   }
 
   .websites {
-    margin-bottom: 50px;
     vertical-align: middle;;
     font-size: 40px;
     font-family: Arial;
     display: inline-block;
+    margin-bottom: 65px;
+    margin-top: 15px;
   }
 
   .websites-image {
@@ -123,14 +137,11 @@
     padding-bottom: 10px;
     padding-left: 13px;
     padding-right: 13px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 45px;
-    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
     cursor: pointer;
     box-shadow: 0px 0px 50px rgb(255, 166, 0,1);
-    transition: background-color 0.5s,box-shadow 0.3s,font-size 0.5s;
+    transition: background-color 0.5s,box-shadow 0.3s,font-size 0.5s,box-shadow 0.2s;
   }
 
   .go-to-website:hover{
@@ -141,6 +152,14 @@
     box-shadow: 0px 10px 10px rgba(0,0,0,1);
   }
 
+  .go-to-website:active{
+    box-shadow: 0px 10px 10px rgba(119, 255, 176,0.1);
+  }
+
+  .lines{
+    display: block;
+    text-align: center;
+  }
 
   .bottom-menu{
     text-align: center;
@@ -168,8 +187,8 @@
   }
 
   .main-menu{
-    text-align: center;
     display: block;
+    text-align: center;
   }
 
 .main-menu-button{
@@ -177,16 +196,18 @@
   font-size: 16px;
   background-color: rgb(0, 255, 0);
   border: none;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 20px;
   padding-left: 20px;
   cursor: pointer;
-  transition: padding-left 0.6s, padding-right 0.6s, border-radius 0.6s;
+  transition: font-size 0.6s, padding-left 0.6s, padding-right 0.6s, border-radius 0.6s;
 }
 
 .main-menu-button:hover{
+  font-size: 19px;
   box-shadow: 0px 7px 7px rgba(0, 88,0,1);
   border-radius: 30px;
   padding-left: 40px;
