@@ -1,0 +1,255 @@
+  p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  body{
+    background-color: rgba(100, 46, 46, 0.123);
+  }
+
+  .language-menu{
+    background-color: rgb(201, 201, 255);
+    border-radius: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+  }
+
+  .language{
+    font-size: 15px;
+    border: none;
+    background-color: rgba(255, 169, 169);
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.6s,
+                border-radius 0.6s;
+  }
+
+  .language:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border-radius: 6px;
+  }
+
+  .main-title{
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 5px 5px 5px rgb(255, 245, 45); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 50px;
+    transition: color 0.6s,
+                padding-top 0.6s,
+                padding-bottom 0.6s;
+  }
+
+  .main-title:hover{
+    color: rgb(0, 0, 255);
+  }
+
+  .all-website-pages{
+    margin-bottom: 100px;
+  }
+
+  .website-page{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .pages{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    width: 390px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.5s,
+                border-radius 0.5s;
+  }
+
+  .pages:hover{
+    border-width: 3px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+  }
+
+  .page-titles{
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+    color: black;
+    text-shadow: 3px 3px 10px rgb(25, 0, 255);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: color 0.6s,text-shadow 0.6s;
+  }
+
+  .page-titles:hover{
+    color: rgb(25, 0, 255);
+    text-shadow: none;
+  }
+
+  .all-profiles{
+    text-align: center;
+  }
+
+  .website-profile{
+    display: inline-block;
+    text-align: center;
+    border-width: 9px;
+    border-style: ridge;
+    border-color: rgb(251, 255, 0);
+    box-shadow: 1px 1px 20px rgba(153, 28, 255,1);
+    margin-bottom: 50px;
+    margin-right: 35px;
+    padding-bottom: 20px;
+    transition: box-shadow 0.8s;
+  }
+
+  .website-profile:hover{
+    box-shadow: 1px 1px 20px rgb(255, 0, 85);
+  }
+
+  .website-name{
+    font-size: 20px;
+    font-family: Snell Roundhand, cursive;
+    width: 300px;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    transition: font-size 0.9s;
+  }
+
+  .website-name:hover{
+    font-size: 28px;
+  }
+
+  .websites-image{
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  .go-to-website-button{
+    font-size: 15px;
+    font-family: Lucida Console;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(70, 255, 209);
+    cursor: cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: box-shadow 0.6s,
+                letter-spacing 0.6s,
+                border-radius 0.6s,
+                padding-left 0.6s,
+                padding-right 0.6s;              
+  }
+
+  .go-to-website-button:hover{
+    box-shadow: 0px 0px 5px rgba(0,0,0,1);
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .bottom-menu{
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 0.6s;
+    
+  }
+
+  .update{
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .time{
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(17, 0, 248);
+  }
+
+  .main-menu{
+    background-color: rgb(201, 201, 255);
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+.main-menu-button{
+  font-family: "Lucida Console";
+  font-size: 16px;
+  background-color: rgb(0, 255, 0);
+  border: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  transition: font-size 0.6s, padding-left 0.6s, padding-right 0.6s, border-radius 0.6s;
+}
+
+.main-menu-button:hover{
+  font-size: 19px;
+  box-shadow: 0px 7px 7px rgba(0, 88,0,1);
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main-menu-button:active{
+  margin-top: 6px;
+  margin-left: 6px;
+  box-shadow: none;
+}
+
+.author-site{
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 30px;
+}
